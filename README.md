@@ -1,1 +1,1 @@
-# Scrum-Project
+Dit is onze 1e scrum project, we hebben een website gebouwt om scores van tafeltennis en mario kart in te voeren. En onlline gezet via een host. Je kan inloggen, registreren en je eigen profiel bekijken.Je kan ook scores toevoegen voor bijde games tafeltennis en mario kart. Der is ook een leaderboard waarbij je een goude naam krijgt als je 1e bent en een silvere naam als 2e ben en een bronze naam als je 3e bent. Je kunt ook naar andere mensen hun profiel via de leaderbaord. En je naam en wachtwoord veranderden.

@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1C1C1C;
+    font-family: sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2A2B2B;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #0178F3;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: #0178F3;
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #CCCCCC;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2A2B2B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: #CCCCCC;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.form {
+    float: right;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    width: 20%;
+    background-color: #363737;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+tr:nth-child(2) {
+    font-size: 22px;
+    animation: gold 1s ease-in-out infinite alternate;
+}
+
+tr:nth-child(3) {
+    font-size: 20px;
+    animation: silver 1s ease-in-out infinite alternate;
+}
+
+tr:nth-child(4) {
+    font-size: 18px;
+    animation: bronze 1s ease-in-out infinite alternate;
+}
+
+@keyframes gold {
+    from {
+        text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 gold, 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px gold;
+    }
+
+    to {
+        text-shadow: 0 0 0 #fff, 0 0 0 rgb(150, 127, 0), 0 0 10px rgb(150, 127, 0), 0 0 20px rgb(150, 127, 0), 0 0 30px rgb(150, 127, 0), 0 0 40px rgb(150, 127, 0), 0 0 80px rgb(150, 127, 0);
+    }
+}
+
+@keyframes silver {
+    from {
+        text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 silver, 0 0 10px silver, 0 0 20px silver, 0 0 30px silver, 0 0 40px silver;
+    }
+
+    to {
+        text-shadow: 0 0 0 #fff, 0 0 0 rgb(120, 120, 120), 0 0 10px rgb(120, 120, 120), 0 0 20px rgb(120, 120, 120), 0 0 30px rgb(120, 120, 120), 0 0 40px rgb(120, 120, 120), 0 0 80px rgb(120, 120, 120);
+    }
+}
+
+@keyframes bronze {
+    from {
+        text-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #CD7F32, 0 0 10px #CD7F32, 0 0 20px #CD7F32, 0 0 30px #CD7F32, 0 0 40px #CD7F32;
+    }
+
+    to {
+        text-shadow: 0 0 0 #fff, 0 0 0 #925b24, 0 0 10px #925b24, 0 0 20px #925b24, 0 0 30px #925b24, 0 0 40px #925b24, 0 0 80px #925b24;
+    }
+}
